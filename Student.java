@@ -7,7 +7,12 @@ public class Student{
         this.age = age;
 
         System.out.println("the name of the student is" + name + ", and the age of the student is  " + age);
-
+    }
+    public String getStudents(String name){
+        return name;
+    }
+    public int getAge(int age){
+        return age;
     }
 
 public static void main(String[]args)
